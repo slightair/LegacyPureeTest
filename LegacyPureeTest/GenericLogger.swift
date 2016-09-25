@@ -17,6 +17,6 @@ class GenericLogger {
     }
 
     func addScreenActivity(screenName: String) {
-        pureeLogger.postLog(screenName, tag: "activity.screen")
+        pureeLogger.post(screenName, tag: "activity.screen")
     }
 }

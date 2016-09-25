@@ -7,8 +7,8 @@ PODS:
     - CocoaLumberjack/Core
   - CocoaLumberjack/Extensions (2.4.0):
     - CocoaLumberjack/Default
-  - Puree (1.2.0):
-    - YapDatabase (~> 2.9)
+  - Puree (2.0.0):
+    - YapDatabase (~> 2.9.2)
   - Reachability (3.2)
   - YapDatabase (2.9.2):
     - YapDatabase/Standard (= 2.9.2)
@@ -62,14 +62,24 @@ PODS:
     - YapDatabase/Standard/Core
 
 DEPENDENCIES:
-  - Puree (= 1.2.0)
+  - Puree (from `http://github.com/slightair/puree-ios.git`, branch `xcode8`)
+
+EXTERNAL SOURCES:
+  Puree:
+    :branch: xcode8
+    :git: http://github.com/slightair/puree-ios.git
+
+CHECKOUT OPTIONS:
+  Puree:
+    :commit: 21368cdcc3ae0215d944c2f47db33cc8dfe93aff
+    :git: http://github.com/slightair/puree-ios.git
 
 SPEC CHECKSUMS:
   CocoaLumberjack: aa9dcab71bdf9eaf2a63bbd9ddc87863efe45457
-  Puree: bfc043794726221ecc6a93ddb98ce108a7aa11d6
+  Puree: dce923c586654f0b301801a2aecb6917cf6f8e82
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   YapDatabase: b1e43555a34a5298e23a045be96817a5ef0da58f
 
-PODFILE CHECKSUM: 395d4bebfef9f5965b7f7de0c356c61e3a7d1a33
+PODFILE CHECKSUM: c233ce012ceab78f4f2c4b165108a4eb340c6833
 
 COCOAPODS: 1.1.0.rc.2
