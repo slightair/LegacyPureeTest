@@ -71,7 +71,7 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   Puree:
-    :commit: 21368cdcc3ae0215d944c2f47db33cc8dfe93aff
+    :commit: d94514b92dc685dd015a7703addd8fffb1cc8ff3
     :git: http://github.com/slightair/puree-ios.git
 
 SPEC CHECKSUMS:
