@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57923E801DAA6FCF007C19A7 /* BufferedConsoleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57923E7F1DAA6FCF007C19A7 /* BufferedConsoleOutput.swift */; };
+		57923E821DAA706C007C19A7 /* EventActivityFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57923E811DAA706C007C19A7 /* EventActivityFilter.swift */; };
 		57ABD6EA1D981A3C00B3B52D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABD6E91D981A3C00B3B52D /* AppDelegate.swift */; };
 		57ABD6EC1D981A3C00B3B52D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABD6EB1D981A3C00B3B52D /* ViewController.swift */; };
 		57ABD6EF1D981A3C00B3B52D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57ABD6ED1D981A3C00B3B52D /* Main.storyboard */; };
@@ -21,6 +23,8 @@
 /* Begin PBXFileReference section */
 		3D04E1A88393868C80D17EBB /* Pods-LegacyPureeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LegacyPureeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-LegacyPureeTest/Pods-LegacyPureeTest.release.xcconfig"; sourceTree = "<group>"; };
 		54896D87D665C4B96DE381AA /* Pods-LegacyPureeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LegacyPureeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LegacyPureeTest/Pods-LegacyPureeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		57923E7F1DAA6FCF007C19A7 /* BufferedConsoleOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BufferedConsoleOutput.swift; sourceTree = "<group>"; };
+		57923E811DAA706C007C19A7 /* EventActivityFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventActivityFilter.swift; sourceTree = "<group>"; };
 		57ABD6E61D981A3C00B3B52D /* LegacyPureeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LegacyPureeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57ABD6E91D981A3C00B3B52D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57ABD6EB1D981A3C00B3B52D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,6 +89,8 @@
 				57ABD6FB1D981B1F00B3B52D /* GenericLogger.swift */,
 				57ABD6FD1D981C2A00B3B52D /* ConsoleOutput.swift */,
 				57ABD6FF1D981DA700B3B52D /* ScreenActivityFilter.swift */,
+				57923E7F1DAA6FCF007C19A7 /* BufferedConsoleOutput.swift */,
+				57923E811DAA706C007C19A7 /* EventActivityFilter.swift */,
 			);
 			path = LegacyPureeTest;
 			sourceTree = "<group>";
@@ -221,6 +227,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				57ABD6EC1D981A3C00B3B52D /* ViewController.swift in Sources */,
+				57923E821DAA706C007C19A7 /* EventActivityFilter.swift in Sources */,
+				57923E801DAA6FCF007C19A7 /* BufferedConsoleOutput.swift in Sources */,
 				57ABD7001D981DA700B3B52D /* ScreenActivityFilter.swift in Sources */,
 				57ABD6FC1D981B1F00B3B52D /* GenericLogger.swift in Sources */,
 				57ABD6FE1D981C2A00B3B52D /* ConsoleOutput.swift in Sources */,
