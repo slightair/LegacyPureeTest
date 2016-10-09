@@ -6,7 +6,7 @@ class GenericLogger {
     let pureeLogger: PURLogger
 
     init() {
-        let configuration = PURLoggerConfiguration()
+        let configuration = PURLoggerConfiguration.default()
         configuration.filterSettings = [
             PURFilterSetting(filter: ScreenActivityFilter.self, tagPattern: "activity.screen"),
             PURFilterSetting(filter: EventActivityFilter.self, tagPattern: "activity.event"),
