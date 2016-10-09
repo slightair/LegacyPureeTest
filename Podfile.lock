@@ -62,24 +62,24 @@ PODS:
     - YapDatabase/Standard/Core
 
 DEPENDENCIES:
-  - Puree (from `http://github.com/slightair/puree-ios.git`, branch `xcode8`)
+  - Puree (from `http://github.com/cookpad/puree-ios.git`, branch `master`)
 
 EXTERNAL SOURCES:
   Puree:
-    :branch: xcode8
-    :git: http://github.com/slightair/puree-ios.git
+    :branch: master
+    :git: http://github.com/cookpad/puree-ios.git
 
 CHECKOUT OPTIONS:
   Puree:
-    :commit: d94514b92dc685dd015a7703addd8fffb1cc8ff3
-    :git: http://github.com/slightair/puree-ios.git
+    :commit: 937c2b8e111b9f30c79ab366d3403d6c86368d26
+    :git: http://github.com/cookpad/puree-ios.git
 
 SPEC CHECKSUMS:
   CocoaLumberjack: aa9dcab71bdf9eaf2a63bbd9ddc87863efe45457
-  Puree: dce923c586654f0b301801a2aecb6917cf6f8e82
+  Puree: 2f256eab6304224915fcb15c8a3515b619089cd8
   Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
   YapDatabase: b1e43555a34a5298e23a045be96817a5ef0da58f
 
-PODFILE CHECKSUM: c233ce012ceab78f4f2c4b165108a4eb340c6833
+PODFILE CHECKSUM: 3e3a293dcce641d3ba65fdd1d67112d3c8bbe17d
 
 COCOAPODS: 1.1.0.rc.2
