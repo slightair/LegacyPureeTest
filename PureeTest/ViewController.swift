@@ -1,11 +1,3 @@
-//
-//  ViewController.swift
-//  LegacyPureeTest
-//
-//  Created by slightair on 9/25/16.
-//  Copyright © 2016 slightair. All rights reserved.
-//
-
 import UIKit
 
 class ViewController: UIViewController {

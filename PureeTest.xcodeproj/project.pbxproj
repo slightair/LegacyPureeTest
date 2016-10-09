@@ -17,15 +17,14 @@
 		57ABD6FC1D981B1F00B3B52D /* GenericLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABD6FB1D981B1F00B3B52D /* GenericLogger.swift */; };
 		57ABD6FE1D981C2A00B3B52D /* ConsoleOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABD6FD1D981C2A00B3B52D /* ConsoleOutput.swift */; };
 		57ABD7001D981DA700B3B52D /* ScreenActivityFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ABD6FF1D981DA700B3B52D /* ScreenActivityFilter.swift */; };
-		F09C49B71E016BA438D29A89 /* Pods_LegacyPureeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3C97175DA4C867A0B655DB /* Pods_LegacyPureeTest.framework */; };
+		C345956F1FF3A7565CB8B9EF /* Pods_PureeTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 34E41A5E3F77CFD6315BB0B5 /* Pods_PureeTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3D04E1A88393868C80D17EBB /* Pods-LegacyPureeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LegacyPureeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-LegacyPureeTest/Pods-LegacyPureeTest.release.xcconfig"; sourceTree = "<group>"; };
-		54896D87D665C4B96DE381AA /* Pods-LegacyPureeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LegacyPureeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LegacyPureeTest/Pods-LegacyPureeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		34E41A5E3F77CFD6315BB0B5 /* Pods_PureeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PureeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		57923E7F1DAA6FCF007C19A7 /* BufferedConsoleOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BufferedConsoleOutput.swift; sourceTree = "<group>"; };
 		57923E811DAA706C007C19A7 /* EventActivityFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventActivityFilter.swift; sourceTree = "<group>"; };
-		57ABD6E61D981A3C00B3B52D /* LegacyPureeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LegacyPureeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		57ABD6E61D981A3C00B3B52D /* PureeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PureeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57ABD6E91D981A3C00B3B52D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		57ABD6EB1D981A3C00B3B52D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		57ABD6EE1D981A3C00B3B52D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -35,7 +34,8 @@
 		57ABD6FB1D981B1F00B3B52D /* GenericLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GenericLogger.swift; sourceTree = "<group>"; };
 		57ABD6FD1D981C2A00B3B52D /* ConsoleOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConsoleOutput.swift; sourceTree = "<group>"; };
 		57ABD6FF1D981DA700B3B52D /* ScreenActivityFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScreenActivityFilter.swift; sourceTree = "<group>"; };
-		7C3C97175DA4C867A0B655DB /* Pods_LegacyPureeTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LegacyPureeTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB3DBF6F24DD83023320C6AC /* Pods-PureeTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PureeTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PureeTest/Pods-PureeTest.debug.xcconfig"; sourceTree = "<group>"; };
+		E60860B03AA439D59CBBC4F6 /* Pods-PureeTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PureeTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-PureeTest/Pods-PureeTest.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,7 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F09C49B71E016BA438D29A89 /* Pods_LegacyPureeTest.framework in Frameworks */,
+				C345956F1FF3A7565CB8B9EF /* Pods_PureeTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,8 +53,8 @@
 		02E1BBDA699A3D70363667B8 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				54896D87D665C4B96DE381AA /* Pods-LegacyPureeTest.debug.xcconfig */,
-				3D04E1A88393868C80D17EBB /* Pods-LegacyPureeTest.release.xcconfig */,
+				CB3DBF6F24DD83023320C6AC /* Pods-PureeTest.debug.xcconfig */,
+				E60860B03AA439D59CBBC4F6 /* Pods-PureeTest.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -62,7 +62,7 @@
 		57ABD6DD1D981A3C00B3B52D = {
 			isa = PBXGroup;
 			children = (
-				57ABD6E81D981A3C00B3B52D /* LegacyPureeTest */,
+				57ABD6E81D981A3C00B3B52D /* PureeTest */,
 				57ABD6E71D981A3C00B3B52D /* Products */,
 				02E1BBDA699A3D70363667B8 /* Pods */,
 				A6FC06B23081F0010DE5614F /* Frameworks */,
@@ -72,12 +72,12 @@
 		57ABD6E71D981A3C00B3B52D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				57ABD6E61D981A3C00B3B52D /* LegacyPureeTest.app */,
+				57ABD6E61D981A3C00B3B52D /* PureeTest.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		57ABD6E81D981A3C00B3B52D /* LegacyPureeTest */ = {
+		57ABD6E81D981A3C00B3B52D /* PureeTest */ = {
 			isa = PBXGroup;
 			children = (
 				57ABD6E91D981A3C00B3B52D /* AppDelegate.swift */,
@@ -92,13 +92,14 @@
 				57923E7F1DAA6FCF007C19A7 /* BufferedConsoleOutput.swift */,
 				57923E811DAA706C007C19A7 /* EventActivityFilter.swift */,
 			);
-			path = LegacyPureeTest;
+			name = PureeTest;
+			path = PureeTest;
 			sourceTree = "<group>";
 		};
 		A6FC06B23081F0010DE5614F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				7C3C97175DA4C867A0B655DB /* Pods_LegacyPureeTest.framework */,
+				34E41A5E3F77CFD6315BB0B5 /* Pods_PureeTest.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -106,9 +107,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		57ABD6E51D981A3C00B3B52D /* LegacyPureeTest */ = {
+		57ABD6E51D981A3C00B3B52D /* PureeTest */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 57ABD6F81D981A3C00B3B52D /* Build configuration list for PBXNativeTarget "LegacyPureeTest" */;
+			buildConfigurationList = 57ABD6F81D981A3C00B3B52D /* Build configuration list for PBXNativeTarget "PureeTest" */;
 			buildPhases = (
 				1E73368800E199BE523A3B7F /* [CP] Check Pods Manifest.lock */,
 				57ABD6E21D981A3C00B3B52D /* Sources */,
@@ -121,9 +122,9 @@
 			);
 			dependencies = (
 			);
-			name = LegacyPureeTest;
-			productName = LegacyPureeTest;
-			productReference = 57ABD6E61D981A3C00B3B52D /* LegacyPureeTest.app */;
+			name = PureeTest;
+			productName = PureeTest;
+			productReference = 57ABD6E61D981A3C00B3B52D /* PureeTest.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -142,7 +143,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 57ABD6E11D981A3C00B3B52D /* Build configuration list for PBXProject "LegacyPureeTest" */;
+			buildConfigurationList = 57ABD6E11D981A3C00B3B52D /* Build configuration list for PBXProject "PureeTest" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -155,7 +156,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				57ABD6E51D981A3C00B3B52D /* LegacyPureeTest */,
+				57ABD6E51D981A3C00B3B52D /* PureeTest */,
 			);
 		};
 /* End PBXProject section */
@@ -201,7 +202,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LegacyPureeTest/Pods-LegacyPureeTest-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PureeTest/Pods-PureeTest-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		62CBFF5FAD38D64846344F53 /* [CP] Embed Pods Frameworks */ = {
@@ -216,7 +217,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LegacyPureeTest/Pods-LegacyPureeTest-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PureeTest/Pods-PureeTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -355,12 +356,12 @@
 		};
 		57ABD6F91D981A3C00B3B52D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 54896D87D665C4B96DE381AA /* Pods-LegacyPureeTest.debug.xcconfig */;
+			baseConfigurationReference = CB3DBF6F24DD83023320C6AC /* Pods-PureeTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LegacyPureeTest/Info.plist;
+				INFOPLIST_FILE = PureeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cc.clv.ios.LegacyPureeTest;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.clv.ios.PureeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -368,12 +369,12 @@
 		};
 		57ABD6FA1D981A3C00B3B52D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3D04E1A88393868C80D17EBB /* Pods-LegacyPureeTest.release.xcconfig */;
+			baseConfigurationReference = E60860B03AA439D59CBBC4F6 /* Pods-PureeTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = LegacyPureeTest/Info.plist;
+				INFOPLIST_FILE = PureeTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cc.clv.ios.LegacyPureeTest;
+				PRODUCT_BUNDLE_IDENTIFIER = cc.clv.ios.PureeTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -382,7 +383,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		57ABD6E11D981A3C00B3B52D /* Build configuration list for PBXProject "LegacyPureeTest" */ = {
+		57ABD6E11D981A3C00B3B52D /* Build configuration list for PBXProject "PureeTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57ABD6F61D981A3C00B3B52D /* Debug */,
@@ -391,7 +392,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		57ABD6F81D981A3C00B3B52D /* Build configuration list for PBXNativeTarget "LegacyPureeTest" */ = {
+		57ABD6F81D981A3C00B3B52D /* Build configuration list for PBXNativeTarget "PureeTest" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				57ABD6F91D981A3C00B3B52D /* Debug */,
